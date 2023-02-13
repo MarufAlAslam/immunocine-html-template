@@ -91,7 +91,7 @@
   font-size: 24px;
 }
 .bg-sky {
-  background-color: #4e6ff6;
+  background-color: #4e6ff6 !important;
 }
 .icon {
   min-width: 90px;
