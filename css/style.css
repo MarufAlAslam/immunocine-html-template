@@ -25,6 +25,8 @@
 * {
   font-family: "atc-regular";
 }
+
+/* navbar */
 .text-blue {
   color: #1a2a6b;
 }
@@ -44,4 +46,21 @@
 
 .nav-link {
   margin-left: 20px;
+}
+
+.bold {
+  font-family: "atc-bold";
+}
+
+/* hero */
+.title {
+  font-size: 90px;
+}
+
+.hero {
+  background: url("../img/hero.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 250px 0;
 }
