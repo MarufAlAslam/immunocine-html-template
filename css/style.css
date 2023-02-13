@@ -148,3 +148,8 @@ iframe {
   height: 3px;
   background-color: white;
 }
+
+/* cards */
+.fs-22 {
+  font-size: 22px;
+}
