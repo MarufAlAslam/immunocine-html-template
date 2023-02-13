@@ -25,3 +25,23 @@
 * {
   font-family: "atc-regular";
 }
+.text-blue {
+  color: #1a2a6b;
+}
+
+.medium {
+  font-family: "atc-medium";
+}
+
+.btn-blue {
+  background-color: #1a2a6b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: "atc-medium";
+}
+
+.nav-link {
+  margin-left: 20px;
+}
