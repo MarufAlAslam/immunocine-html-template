@@ -36,8 +36,8 @@
 }
 
 .btn-blue {
-  background-color: #1a2a6b;
-  color: white;
+  background-color: #1a2a6b !important;
+  color: white !important;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
@@ -63,4 +63,41 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding: 250px 0;
+}
+
+/* unlock */
+.text-sky {
+  color: #4e6ff6;
+}
+.fs-60 {
+  font-size: 60px;
+}
+.fs-32 {
+  font-size: 32px;
+}
+.btn-sky {
+  background-color: #4e6ff6 !important;
+  color: white !important;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: "atc-medium";
+}
+
+.bg-blue {
+  background-color: #1a2a6b;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.bg-sky {
+  background-color: #4e6ff6;
+}
+.icon {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
