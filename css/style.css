@@ -142,3 +142,9 @@ iframe {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* line */
+.line {
+  height: 3px;
+  background-color: white;
+}
