@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "atc-light";
+  src: url("../fonts/ATCArquette-Light.ttf");
+}
+@font-face {
+  font-family: "atc-regular";
+  src: url("../fonts/ATCArquette-Regular.ttf");
+}
+@font-face {
+  font-family: "atc-medium";
+  src: url("../fonts/ATCArquette-Medium.ttf");
+}
+
+@font-face {
+  font-family: "atc-bold";
+  src: url("../fonts/ATCArquette-Bold.ttf");
+}
+@font-face {
+  font-family: "atc-black";
+  src: url("../fonts/ATCArquette-Black.ttf");
+}
+
+/* universal */
+
+* {
+  font-family: "atc-regular";
+}
