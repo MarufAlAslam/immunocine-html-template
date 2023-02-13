@@ -94,6 +94,8 @@
   background-color: #4e6ff6;
 }
 .icon {
+  min-width: 90px;
+  min-height: 90px;
   width: 90px;
   height: 90px;
   border-radius: 50%;
@@ -104,4 +106,39 @@
 
 .fs-18 {
   font-size: 18px;
+}
+
+.cards .card {
+  border-radius: 20px;
+}
+.br-20 {
+  border-radius: 20px;
+}
+
+/* video */
+iframe {
+  height: 700px;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+.video::after {
+  content: "";
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  background: #1a2a6b;
+  bottom: 0;
+  left: 0;
+}
+
+.vid {
+  position: relative;
+  z-index: 1;
+}
+
+.play.position-absolute {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
