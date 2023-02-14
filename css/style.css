@@ -26,6 +26,11 @@
   font-family: "atc-regular";
 }
 
+body,
+html {
+  overflow-x: hidden;
+}
+
 /* navbar */
 .text-blue {
   color: #1a2a6b;
