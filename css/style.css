@@ -177,3 +177,21 @@ iframe {
   height: calc(100vh - 85px);
   object-fit: cover;
 }
+
+/* timeline */
+.col-md-2.text-center.line-holder.p-0.bit-off {
+  margin-top: 145px;
+}
+.col-md-5.p-0.bit-off {
+  margin-top: 100px;
+}
+.row.mt-5.pt-5.wireframe .col-md-5 {
+  max-width: 38.5%;
+}
+.col-md-2.text-center.line-holder.p-0.bit-off {
+  max-width: 23%;
+  width: 23%;
+}
+.col-md-2.text-center.line-holder.p-0.bit-off img {
+  width: 95%;
+}
