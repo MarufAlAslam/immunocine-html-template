@@ -166,3 +166,14 @@ iframe {
 .icons img {
   height: 24px;
 }
+
+/* treatment page */
+
+.p-100 {
+  padding: 100px;
+}
+
+.h-100vh {
+  height: calc(100vh - 85px);
+  object-fit: cover;
+}
