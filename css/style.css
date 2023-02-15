@@ -200,3 +200,8 @@ iframe {
 .fs-20 {
   font-size: 20px;
 }
+
+/* testimonial page */
+.testimonial-hero {
+  background: url("../img/testimonial-banner.png");
+}
