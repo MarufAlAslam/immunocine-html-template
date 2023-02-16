@@ -214,3 +214,48 @@ iframe {
   display: flex;
   justify-content: center;
 }
+
+.nav-tabs .nav-link.active {
+  color: #4e6ff6 !important;
+}
+ul#myTab {
+  border-bottom: 3px solid white;
+}
+
+.accordion * {
+  background-color: transparent !important;
+  border: none !important;
+  color: white;
+  box-shadow: unset !important;
+}
+
+button:focus {
+  outline: unset !important;
+  box-shadow: unset !important;
+}
+
+.accordion-button {
+  border-bottom: 2px solid white !important;
+  border-radius: 0 !important;
+}
+
+.accordion-button::after {
+  display: none !important;
+}
+
+.accordion-button.collapsed {
+  background-image: url("../img/plus-1.png");
+  background-repeat: no-repeat;
+  background-position: left 30%;
+  padding-left: 100px;
+}
+.accordion-button {
+  background-image: url("../img/minus.png");
+  background-repeat: no-repeat;
+  background-position: left 30%;
+  padding-left: 100px;
+}
+
+.accordion-body {
+  padding-left: 100px;
+}

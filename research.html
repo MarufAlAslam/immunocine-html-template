@@ -105,32 +105,161 @@
     <!-- tabs n accordion -->
     <section class="tabnaccordion py-5 bg-blue">
         <div class="container">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <ul class="nav nav-tabs pb-3" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
-                        type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Treatment
+                    <button class="nav-link active fs-24 medium text-white bg-transparent border-0" id="home-tab"
+                        data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab"
+                        aria-controls="home-tab-pane" aria-selected="true">Treatment
                         Overview</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
-                        type="button" role="tab" aria-controls="profile-tab-pane"
-                        aria-selected="false">Validation</button>
+                    <button class="nav-link fs-24 medium text-white bg-transparent border-0" id="profile-tab"
+                        data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab"
+                        aria-controls="profile-tab-pane" aria-selected="false">Validation</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
-                        type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Mechanistic
+                    <button class="nav-link fs-24 medium text-white bg-transparent border-0" id="contact-tab"
+                        data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab"
+                        aria-controls="contact-tab-pane" aria-selected="false">Mechanistic
                         Confirmation</button>
                 </li>
             </ul>
-            <div class="tab-content" id="myTabContent">
+            <div class="tab-content pt-3" id="myTabContent">
                 <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
-                    tabindex="0">...</div>
+                    tabindex="0">
+                    <p class="fs-24 medium text-white">
+                        The Immunocine Team recommends starting with the following four papers to develop a better
+                        mechanistic understanding of our treatment protocol and review both pre-clinical and clinical
+                        successes.
+                    </p>
+
+
+
+                    <div class="accordion mt-4" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button
+                                    class="accordion-button justify-content-start align-items-start flex flex-column"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    <span class="fs-24 medium d-block mb-2">
+                                        Th-1 Polarization Is Regulated by Dendritic Cell Comparison of MHC Class I and
+                                        Class
+                                        II Antigens
+                                    </span>
+                                    <span class="text-white medium">
+                                        Decker WK, Xing D, Li S, et al. Blood. Published January 2009.
+                                    </span>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-white lead ps-5">
+                                        In this seminal publication, it was discovered and demonstrated that Dendritic
+                                        Cells possess a never-before-seen intrinsic mechanism critical to appropriate
+                                        immunity. This mechanism essentially allows for the Dendritic Cell to “sense”
+                                        the internal and external cellular environments simultaneously to determine if a
+                                        Th1 Killer T cell response is appropriate and necessary (the type of immune
+                                        response needed to eliminate viruses and cancers).
+                                        <br><br>
+                                        This phenomenon is demonstrated down to the MHC binding peptide level and is
+                                        validated by a variety of measures including decreased CTLA-4 expression,
+                                        increased CD83 levels, and increased IL-12 and Interferon—secretion by the
+                                        Dendritic Cells and responding T cells, respectively.
+                                        <br><br>
+                                        Taken together, it is apparent the Dendritic Cells possess a very detailed and
+                                        important mechanism never previously identified and potentially critical to
+                                        optimal immune responsiveness.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button
+                                    class="accordion-button collapsed justify-content-start align-items-start flex flex-column"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    <span class="fs-24 medium d-block mb-2">
+                                        MHC class I and II peptide homology regulates the cellular immune response
+                                    </span>
+                                    <span class="text-white medium">
+                                        Halpert MM, Konduri V, Liang D, et al. Faseb. Published April 2020.
+                                    </span>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-white lead ps-5">
+                                        Content Will Be Changed later
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button
+                                    class="accordion-button collapsed justify-content-start align-items-start flex flex-column"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
+                                    <span class="fs-24 medium d-block mb-2">
+                                        Chemo-immunotherapy mediates durable cure of orthotopic KrasG12D/p53-/-
+                                        pancreatic ductal adenocarcinoma.
+                                    </span>
+                                    <span class="text-white medium">
+                                        Konduri V, Li D, Halpert MM, et al. Oncoimmunology. Published July 2016.
+                                    </span>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-white lead ps-5">
+                                        Content Will Be Changed later
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button
+                                    class="accordion-button collapsed justify-content-start align-items-start flex flex-column"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                    aria-expanded="false" aria-controls="collapseFour">
+                                    <span class="fs-24 medium d-block mb-2">
+                                        A retrospective analysis comparing APCEDEN dendritic cell immunotherapy with
+                                        best supportive care in refractory cancer.
+                                    </span>
+                                    <span class="text-white medium">
+                                        Kumar C, Kohli S, Chiliveru S, et al. Immunotherapy. Published September 2017.
+                                    </span>
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-white lead ps-5">
+                                        Content Will Be Changed later
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
-                    tabindex="0">...</div>
+                    tabindex="0">
+                    <p class="text-white lead ps-5">
+                        Content Will Be Changed later
+                    </p>
+                </div>
                 <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
-                    tabindex="0">...</div>
-                <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab"
-                    tabindex="0">...</div>
+                    tabindex="0">
+                    <p class="text-white lead ps-5">
+                        Content Will Be Changed later
+                    </p>
+                </div>
             </div>
         </div>
     </section>
