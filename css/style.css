@@ -214,6 +214,13 @@ iframe {
   display: flex;
   justify-content: center;
 }
+.faqaccordion .nav-tabs li.nav-item {
+  width: 20%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
 
 .nav-tabs .nav-link.active {
   color: #4e6ff6 !important;
@@ -258,4 +265,13 @@ button:focus {
 
 .accordion-body {
   padding-left: 100px;
+}
+
+/* faq */
+.nav-link.btn-sky.active {
+  color: white !important;
+}
+.faqaccordion .accordion-button {
+  border: unset !important;
+  background-position: left 45%;
 }
