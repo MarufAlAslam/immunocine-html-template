@@ -205,3 +205,12 @@ iframe {
 .testimonial-hero {
   background: url("../img/testimonial-banner.png");
 }
+
+/* research */
+
+.nav-tabs li.nav-item {
+  width: 33.33%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
