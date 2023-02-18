@@ -2,10 +2,12 @@
   font-family: "atc-light";
   src: url("../fonts/ATCArquette-Light.ttf");
 }
+
 @font-face {
   font-family: "atc-regular";
   src: url("../fonts/ATCArquette-Regular.ttf");
 }
+
 @font-face {
   font-family: "atc-medium";
   src: url("../fonts/ATCArquette-Medium.ttf");
@@ -15,6 +17,7 @@
   font-family: "atc-bold";
   src: url("../fonts/ATCArquette-Bold.ttf");
 }
+
 @font-face {
   font-family: "atc-black";
   src: url("../fonts/ATCArquette-Black.ttf");
@@ -74,12 +77,15 @@ html {
 .text-sky {
   color: #4e6ff6;
 }
+
 .fs-60 {
   font-size: 60px;
 }
+
 .fs-32 {
   font-size: 32px;
 }
+
 .btn-sky {
   background-color: #4e6ff6 !important;
   color: white !important;
@@ -92,12 +98,15 @@ html {
 .bg-blue {
   background-color: #1a2a6b;
 }
+
 .fs-24 {
   font-size: 24px;
 }
+
 .bg-sky {
   background-color: #4e6ff6 !important;
 }
+
 .icon {
   min-width: 90px;
   min-height: 90px;
@@ -116,6 +125,7 @@ html {
 .cards .card {
   border-radius: 20px;
 }
+
 .br-20 {
   border-radius: 20px;
 }
@@ -127,6 +137,7 @@ iframe {
   position: relative;
   z-index: 10;
 }
+
 .video::after {
   content: "";
   position: absolute;
@@ -163,6 +174,7 @@ iframe {
 .f-menu-item {
   border-bottom: 1px solid #4e6ff6;
 }
+
 .icons img {
   height: 24px;
 }
@@ -182,16 +194,20 @@ iframe {
 .col-md-2.text-center.line-holder.p-0.bit-off {
   margin-top: 145px;
 }
+
 .col-md-5.p-0.bit-off {
   margin-top: 100px;
 }
+
 .row.mt-5.pt-5.wireframe .col-md-5 {
   max-width: 38.5%;
 }
+
 .col-md-2.text-center.line-holder.p-0.bit-off {
   max-width: 23%;
   width: 23%;
 }
+
 .col-md-2.text-center.line-holder.p-0.bit-off img {
   width: 95%;
 }
@@ -214,6 +230,7 @@ iframe {
   display: flex;
   justify-content: center;
 }
+
 .faqaccordion .nav-tabs li.nav-item {
   width: 20%;
   text-align: center;
@@ -225,6 +242,7 @@ iframe {
 .nav-tabs .nav-link.active {
   color: #4e6ff6 !important;
 }
+
 ul#myTab {
   border-bottom: 3px solid white;
 }
@@ -256,6 +274,7 @@ button:focus {
   background-position: left 30%;
   padding-left: 100px;
 }
+
 .accordion-button {
   background-image: url("../img/minus.png");
   background-repeat: no-repeat;
@@ -271,7 +290,17 @@ button:focus {
 .nav-link.btn-sky.active {
   color: white !important;
 }
+
 .faqaccordion .accordion-button {
   border: unset !important;
   background-position: left 45%;
+}
+
+
+/* about */
+.abt-hero {
+  background: url("../img/abt-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
