@@ -339,6 +339,30 @@ label.fs-20.medium {
   width: 25% !important;
 }
 
-.newsTab .nav-tabs {
+.newsTab .nav-tabs,
+.faqaccordion2 .nav-tabs {
   border-bottom: 3px solid #1a2a6b !important;
+}
+
+
+/* physician */
+.faqaccordion2 .accordion * {
+  background-color: transparent !important;
+  border: none !important;
+  color: #1a2a6b !important;
+  box-shadow: unset !important;
+}
+
+.faqaccordion2 .accordion-button.collapsed {
+  background-image: url("../img/pl-inv.png") !important;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 100px;
+}
+
+.faqaccordion2 .accordion-button {
+  background-image: url("../img/min-inv.png") !important;
+  background-repeat: no-repeat;
+  background-position: left 30%;
+  padding-left: 100px;
 }
