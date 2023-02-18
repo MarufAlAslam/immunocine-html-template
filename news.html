@@ -47,7 +47,7 @@
                             <a class="nav-link text-blue medium" aria-current="page" href="team.html">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-blue medium" aria-current="page" href="about.html">About</a>
+                            <a class="nav-link text-blue medium" aria-current="page" href="#">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-blue medium" aria-current="page" href="news.html">News</a>
@@ -66,167 +66,150 @@
     <!-- header -->
 
 
-    <!-- hero -->
-    <section class="hero testimonial-hero">
-        <div class="container">
-            <div class="text-center">
-                <h1 class="title text-white bold">
-                    Incredible Results <br>
-                    Powered by Real Science
-                </h1>
-            </div>
-        </div>
-    </section>
-    <!-- hero -->
-
     <!-- testimonial -->
     <section class="testimonial py-5">
         <div class="container">
             <p class="text-sky fs-32 text-decoration-underline">
-                Testimonials
+                News
             </p>
             <h2 class="fs-60 text-blue bold">
-                These are incredible real-world results backed by science.
+                The latest updates on immunotherapy and the future of cancer treatment.
             </h2>
-            <div class="row mt-5">
-                <div class="col-md-6 p-3">
-                    <div class="card border-0 bg-transparent">
-                        <img src="img/1.png" class="img-fluid card-img-top" alt="">
-                        <div class="card-body text-center">
-                            <p class="text-blue medium">
-                                Chris was battling metastatic Prostate Cancer and was told he had less than three months
-                                to live. Today, he is cancer-free and enjoys a fruitful life with his family.
-                            </p>
-                            <a href="testimonial-individual.html" class="btn btn-sky">
-                                Hear Chris’ Story
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 p-3">
-                    <div class="card border-0 bg-transparent">
-                        <img src="img/2.png" class="img-fluid card-img-top" alt="">
-                        <div class="card-body text-center">
-                            <p class="text-blue medium">
-                                After undergoing numerous invasive and excruciating treatments for years, Sheryl
-                                discovered how her body can effectively fight the spread without surgery or radiation.
-                            </p>
-                            <a href="testimonial-individual.html" class="btn btn-sky">
-                                Hear Sheryl’s Story
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 p-3">
-                    <div class="card border-0 bg-transparent">
-                        <img src="img/kareema.png" class="img-fluid card-img-top" alt="">
-                        <div class="card-body text-center">
-                            <p class="text-blue medium">
-                                In 2021, Kareema was diagnosed with terminal Stage 4 Neuroendocrine Cancer and told she
-                                had less than 18 months to live. A recent CT Scan could not find any evidence of her
-                                once terminal tumor.
-                            </p>
-                            <a href="testimonial-individual.html" class="btn btn-sky">
-                                Hear Kareema’s Story
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 p-3">
-                    <div class="card border-0 bg-transparent">
-                        <img src="img/lynn.png" class="img-fluid card-img-top" alt="">
-                        <div class="card-body text-center">
-                            <p class="text-blue medium">
-                                With rapidly rising cancer markers, Lynn began searching for alternative treatments and
-                                ultimately discovered Immunocine. Upon completing treatment, Lynn's rapidly growing
-                                cancer markers stabilized and began decreasing.
-                            </p>
-                            <a href="testimonial-individual.html" class="btn btn-sky">
-                                Hear Lynn’s Story
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
     <!-- testimonial -->
 
 
-    <!-- customized treatment -->
-    <section class="customized py-5 bg-sky mt-5">
+    <!-- tabs n accordion -->
+    <section class="newsTab py-5">
         <div class="container">
-            <p class="fs-32 medium text-blue d-inline-block text-decoration-underline">
-                Contact Us
-            </p>
-            <h2 class="text-white bold fs-60">
-                We are here to help. Apply to see if you qualify for our treatment.
-            </h2>
+            <ul class="nav nav-tabs pb-3" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active fs-24 medium text-blue bg-transparent border-0" id="home-tab"
+                        data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab"
+                        aria-controls="home-tab-pane" aria-selected="true">Cancer <br>
+                        Research</button>
+                </li>
+                <li class="nav-item text-start" role="presentation">
+                    <button class="nav-link fs-24 medium text-blue bg-transparent border-0" id="profile-tab"
+                        data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab"
+                        aria-controls="profile-tab-pane" aria-selected="false">Patient <br>
+                        Testimonials</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link fs-24 medium text-blue bg-transparent border-0" id="contact-tab"
+                        data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab"
+                        aria-controls="contact-tab-pane" aria-selected="false">
+                        Educational <br>
+                        Resources</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link fs-24 medium text-blue bg-transparent border-0" id="edu-tab"
+                        data-bs-toggle="tab" data-bs-target="#edu-tab-pane" type="button" role="tab"
+                        aria-controls="edu-tab-pane" aria-selected="false">
+                        Immunocine <br>
+                        News</button>
+                </li>
+            </ul>
+            <div class="tab-content pt-5" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                    tabindex="0">
 
-            <div class="row mt-5">
-                <div class="col-md-4 p-3">
-                    <div class="card h-100 border-0 bg-blue py-5">
-                        <div class="card-body">
-                            <div class="text-center">
-                                <img src="img/p1.png" class="img-fluid" alt="">
-                                <h3 class="fs-24 medium text-white my-3">
-                                    1) Apply to See If You Qualify
-                                </h3>
-                                <p class="text-white fs-18">
-                                    If you meet the minimum requirements outlined above and are interested in seeing how
-                                    our treatment could work for your specific case, please submit your info on our
-                                    submission form or call us directly at +1 (888) 575-2572.
-                                </p>
-                            </div>
+                    <div class="row">
+                        <div class="col-md-6 p-2">
+                            <img src="img/n1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-6 p-2 m-auto">
+                            <p class="text-blue">
+                                January 2, 2023
+                            </p>
+                            <p class="fs-24 medium text-blue">
+                                Babette’s Treatment Update
+                            </p>
+                            <p class="lead text-blue fs-20">
+                                Babette has finally completed treatment at Immunocine. Now back home, the Immunocine
+                                Team will stay in contact with her
+                                to evaluate any future medical reports and scans. These followups are critical to ensure
+                                her physicians know what to
+                                expect going forward and Babette’s Immune System continues to attack her cancer. With
+                                her treatment complete, Babette
+                                kindly volunteered […]
+                            </p>
+                            <a href="news-detail.html" class="btn btn-sky">
+                                Read More
+                            </a>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 p-3">
-                    <div class="card h-100 border-0 bg-blue py-5">
-                        <div class="card-body">
-                            <div class="text-center">
-                                <img src="img/p2.png" class="img-fluid" alt="">
-                                <h3 class="fs-24 medium text-white my-3">
-                                    2) Schedule an Intro Call
-                                </h3>
-                                <p class="text-white fs-18">
-                                    Our team loves discussing our treatment with potential patients. We will schedule an
-                                    intro call to learn about your diagnosis and answer any questions that you may have.
-                                    Prior to the call, we will share additional info for you to review with your family
-                                    and physician as you see fit.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 p-3">
-                    <div class="card h-100 border-0 bg-blue py-5">
-                        <div class="card-body">
-                            <div class="text-center">
-                                <img src="img/p3.png" class="img-fluid" alt="">
-                                <h3 class="fs-24 medium text-white my-3">
-                                    3) Undergo Medical Evaluation
-                                </h3>
-                                <p class="text-white fs-18">
-                                    After confirming your eligibility, our Medical Team will perform a complimentary
-                                    medical evaluation. This includes a questionnaire and review of your medical
-                                    records. Once complete, you can be approved for treatment and we can build a
-                                    personalized treatment program for you.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                    <div class="row mt-5">
 
-            <div class="text-center mt-5">
-                <a href="" class="btn btn-light">
-                    Get Started
-                </a>
+                        <div class="col-md-6 p-2 m-auto">
+                            <p class="text-blue">
+                                December 20, 2022
+                            </p>
+                            <p class="fs-24 medium text-blue">
+                                Why Is Immunocine in Cancún, Mexico?
+                            </p>
+                            <p class="lead text-blue fs-20">
+                                Why isn’t Immunocine Cancer Treatment in the US? Alternative treatment centers are often
+                                met with a skeptical eye, and
+                                with justifiable reason. Though many take issue with how lengthy the FDA approval
+                                process is, the reality is that
+                                without it, there is no real way to determine the veracity of many of the claims out […]
+                            </p>
+                            <a href="news-detail.html" class="btn btn-sky">
+                                Read More
+                            </a>
+                        </div>
+                        <div class="col-md-6 p-2">
+                            <img src="img/n2.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-md-6 p-2">
+                            <img src="img/n3.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-6 p-2 m-auto">
+                            <p class="text-blue">
+                                December 2, 2022
+                            </p>
+                            <p class="fs-24 medium text-blue">
+                                Babette’s Treatment Experience with Immunocine
+                            </p>
+                            <p class="lead text-blue fs-20">
+                                Many of our patients are pleasantly surprised by how much they enjoy their time in
+                                Cancún. While our team is more than
+                                happy to provide our perspective on what to expect, we know that firsthand experience is
+                                hard to beat! Having arrived
+                                last month to start her treatment, Immunocine patient Babette Lamarre kindly […]
+                            </p>
+                            <a href="news-detail.html" class="btn btn-sky">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                    tabindex="0">
+                    <p class="text-blue lead ps-5">
+                        Content Will Be Changed later
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                    tabindex="0">
+                    <p class="text-blue lead ps-5">
+                        Content Will Be Changed later
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="edu-tab-pane" role="tabpanel" aria-labelledby="edu-tab" tabindex="0">
+                    <p class="text-blue lead ps-5">
+                        Content Will Be Changed later
+                    </p>
+                </div>
             </div>
         </div>
     </section>
-    <!-- customized treatment -->
+    <!-- tabs n accordion -->
+
 
 
     <!-- footer -->

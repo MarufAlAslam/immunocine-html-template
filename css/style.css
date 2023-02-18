@@ -247,6 +247,8 @@ ul#myTab {
   border-bottom: 3px solid white;
 }
 
+
+
 .accordion * {
   background-color: transparent !important;
   border: none !important;
@@ -329,4 +331,14 @@ section.img-bg.py-5.position-relative::before {
 
 label.fs-20.medium {
   width: 50px;
+}
+
+
+/* news */
+.newsTab .nav-item {
+  width: 25% !important;
+}
+
+.newsTab .nav-tabs {
+  border-bottom: 3px solid #1a2a6b !important;
 }
