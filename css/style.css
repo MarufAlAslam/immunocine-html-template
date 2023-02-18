@@ -304,3 +304,29 @@ button:focus {
   background-size: cover;
   background-position: center;
 }
+
+
+/* contact us */
+section.img-bg.py-5.position-relative::before {
+  content: '';
+  height: 50%;
+  background: #1a2a6b;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.form ::placeholder {
+  color: white;
+}
+
+.form label {
+  width: 150px;
+  text-align: right;
+}
+
+label.fs-20.medium {
+  width: 50px;
+}
