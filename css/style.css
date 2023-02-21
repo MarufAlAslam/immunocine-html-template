@@ -405,6 +405,9 @@ input[type="radio"] {
 .nav-tabs li.nav-item:last-child:after {
   display: none;
 }
+.underline.bg-sky {
+  height: 2px;
+}
 
 /* responsiveness */
 
