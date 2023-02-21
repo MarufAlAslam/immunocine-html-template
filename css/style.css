@@ -247,8 +247,6 @@ ul#myTab {
   border-bottom: 3px solid white;
 }
 
-
-
 .accordion * {
   background-color: transparent !important;
   border: none !important;
@@ -298,7 +296,6 @@ button:focus {
   background-position: left 45%;
 }
 
-
 /* about */
 .abt-hero {
   background: url("../img/abt-hero.png");
@@ -307,10 +304,9 @@ button:focus {
   background-position: center;
 }
 
-
 /* contact us */
 section.img-bg.py-5.position-relative::before {
-  content: '';
+  content: "";
   height: 50%;
   background: #1a2a6b;
   position: absolute;
@@ -333,7 +329,6 @@ label.fs-20.medium {
   width: 50px;
 }
 
-
 /* news */
 .newsTab .nav-item {
   width: 25% !important;
@@ -343,7 +338,6 @@ label.fs-20.medium {
 .faqaccordion2 .nav-tabs {
   border-bottom: 3px solid #1a2a6b !important;
 }
-
 
 /* physician */
 .faqaccordion2 .accordion * {
@@ -377,11 +371,9 @@ input:focus {
   box-shadow: unset !important;
 }
 
-
 /* responsiveness */
 
 @media screen and (max-width: 767px) {
-
   /* index */
   .navbar-toggler {
     border: unset !important;
@@ -450,8 +442,6 @@ input:focus {
     padding-top: 20px;
   }
 
-
-
   /* about */
   .cols .text-end {
     text-align: left !important;
@@ -478,7 +468,6 @@ input:focus {
     width: 100%;
     margin: 0 0 10px 0 !important;
   }
-
 
   /* elligibility */
   .p-100 {
@@ -525,7 +514,6 @@ input:focus {
     font-size: 20px;
   }
 
-
   /* news */
 
   .col-md-6.my-auto.ps-5 {
@@ -549,5 +537,29 @@ input:focus {
 
   .col-md-5.p-0.bit-off {
     margin-top: 0;
+  }
+
+  /* fixes */
+  section.treatment-hero .row {
+    flex-direction: column-reverse;
+  }
+  section.treatment-hero .h-100vh {
+    height: 400px;
+    object-position: top;
+  }
+  section.cell-treatment.py-5 .col-md-7 {
+    margin: 15px 0 !important;
+  }
+  .col-rev {
+    flex-direction: column-reverse;
+  }
+  .row.my-5.col-rev {
+    margin-top: 0 !important;
+  }
+  section.cell-treatment.py-5 {
+    padding-bottom: 0 !important;
+  }
+  .mb-t-15 {
+    margin-top: 15px !important;
   }
 }
