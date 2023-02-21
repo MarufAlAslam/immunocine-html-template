@@ -430,6 +430,8 @@ input:focus {
 
   section.video.py-5.position-relative {
     padding-top: 0 !important;
+    margin-bottom: -1px;
+    padding-bottom: 0 !important;
   }
 
   .treatt .row.mt-4 {
