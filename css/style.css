@@ -374,6 +374,24 @@ input:focus {
   box-shadow: unset !important;
 }
 
+/* desktop fixes */
+.pl-150 {
+  padding-left: 165px;
+}
+.custom-radio {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 2px solid #4e6ff6;
+  border-radius: 50%;
+}
+.rdobtn.selected .custom-radio {
+  background: #4e6ff6;
+}
+input[type="radio"] {
+  display: none;
+}
+
 /* responsiveness */
 
 @media screen and (max-width: 767px) {
@@ -566,5 +584,8 @@ input:focus {
   }
   .mb-t-15 {
     margin-top: 15px !important;
+  }
+  .pl-150 {
+    padding-left: 0;
   }
 }

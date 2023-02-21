@@ -180,10 +180,10 @@
                                 Name*
                             </label>
                             <input required type="text"
-                                class="form-control text-white py-2 border-0 bg-blue rounded mx-3" placeholder="John"
+                                class="form-control text-white py-2 border-0 bg-blue rounded ms-3" placeholder="John"
                                 name="" id="">
                             <input required type="text"
-                                class="form-control text-white py-2 border-0 bg-blue rounded mx-3" placeholder="Doe"
+                                class="form-control text-white py-2 border-0 bg-blue rounded ms-3" placeholder="Doe"
                                 name="" id="">
                         </div>
                         <div class="input-group mb-5 align-items-center">
@@ -191,7 +191,7 @@
                                 Email*
                             </label>
                             <input required type="text"
-                                class="form-control text-white py-2 border-0 bg-blue rounded mx-3"
+                                class="form-control text-white py-2 border-0 bg-blue rounded ms-3"
                                 placeholder="johndoe@gmail.com" name="" id="">
                         </div>
                         <div class="input-group mb-5 align-items-center">
@@ -199,14 +199,14 @@
                                 Phone*
                             </label>
                             <input required type="text"
-                                class="form-control text-white py-2 border-0 bg-blue rounded mx-3"
+                                class="form-control text-white py-2 border-0 bg-blue rounded ms-3"
                                 placeholder="(555) 555-5555" name="" id="">
                         </div>
                         <div class="input-group mb-5 align-items-center">
                             <label for="" class="text-blue lead medium">
                                 How did you hear about us?*
                             </label>
-                            <select required class="form-select text-white py-2 border-0 bg-blue rounded mx-3" name=""
+                            <select required class="form-select text-white py-2 border-0 bg-blue rounded ms-3" name=""
                                 id="">
                                 <option value="">
                                     option 1
@@ -223,7 +223,7 @@
                             <label for="" class="text-blue lead medium">
                                 Cancer Stage*
                             </label>
-                            <select required class="form-select text-white py-2 border-0 bg-blue rounded mx-3" name=""
+                            <select required class="form-select text-white py-2 border-0 bg-blue rounded ms-3" name=""
                                 id="">
                                 <option value="">
                                     option 1
@@ -236,11 +236,11 @@
                                 </option>
                             </select>
                         </div>
-                        <div class="input-group mb-5 align-items-center">
+                        <div class="input-group mb-3 align-items-center">
                             <label for="" class="text-blue lead medium">
                                 Cancer Type*
                             </label>
-                            <select required class="form-select text-white py-2 border-0 bg-blue rounded mx-3" name=""
+                            <select required class="form-select text-white py-2 border-0 bg-blue rounded ms-3" name=""
                                 id="">
                                 <option value="">
                                     option 1
@@ -253,19 +253,21 @@
                                 </option>
                             </select>
                         </div>
-                        <div class="input-group mb-5 align-items-center justify-content-between">
-                            <p class="text-blue lead medium fs-24 mb-0">
+                        <div class="input-group mb-3 align-items-center justify-content-between">
+                            <p class="text-blue lead bold fs-24 mb-0 pl-150 pe-5">
                                 Are you able to travel to <br> Cancún for treatment?*
                             </p>
                             <div class="d-flex flex-column">
-                                <div class="item justify-content-center align-items-center d-inline-flex">
-                                    <input type="radio" name="" id="opt1">
+                                <div class="item justify-content-center align-items-center d-inline-flex rdobtn">
+                                    <input type="radio" name="rad" id="opt1">
+                                    <div class="custom-radio"></div>
                                     <label for="opt1" class="fs-20 medium">
                                         Yes
                                     </label>
                                 </div>
-                                <div class="item justify-content-center align-items-center d-inline-flex">
-                                    <input type="radio" name="" id="opt2">
+                                <div class="item justify-content-center align-items-center d-inline-flex rdobtn">
+                                    <input type="radio" name="rad" id="opt2">
+                                    <div class="custom-radio"></div>
                                     <label for="opt2" class="fs-20 medium">
                                         No
                                     </label>
@@ -273,7 +275,7 @@
                             </div>
                         </div>
 
-                        <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex justify-content-between align-items-center pl-150">
                             <button class="btn btn-sky">
                                 Submit
                             </button>
@@ -405,6 +407,8 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/app.js"></script>
 </body>
 
 </html>
