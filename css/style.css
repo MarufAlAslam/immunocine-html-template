@@ -391,6 +391,20 @@ input:focus {
 input[type="radio"] {
   display: none;
 }
+.nav-tabs li.nav-item {
+  position: relative;
+}
+.nav-tabs li.nav-item::after {
+  content: "";
+  height: 100%;
+  width: 1px;
+  background: #1a2a6b;
+  position: absolute;
+  right: 0;
+}
+.nav-tabs li.nav-item:last-child:after {
+  display: none;
+}
 
 /* responsiveness */
 
