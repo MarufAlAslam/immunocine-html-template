@@ -33,6 +33,9 @@ body,
 html {
   overflow-x: hidden;
 }
+body {
+  padding: 0 !important;
+}
 
 /* navbar */
 .text-blue {
